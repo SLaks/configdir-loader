@@ -21,12 +21,13 @@ Sample directory structure:
   - featureSwitches-prod.json
 
 ```js
-var config = require('configdir-loader').load('prod', [__dirname + '/core-config', __dirname + '/website-config']);
+var config = require('configdir-loader')
+	.load('prod', [__dirname + '/core-config', __dirname + '/website-config']);
 ```
 
 This will return an object with the following merged files:
 
-```json
+```js
 {
 	domains: [core/domains],
 	featureSwitches: [core/featureSwitches, website/featureSwitches-base, website/featureSwitches-prod],
