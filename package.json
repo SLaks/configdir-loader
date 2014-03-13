@@ -1,6 +1,6 @@
 {
   "name": "configdir-loader",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Loads environment-specific configuration files into a config object.",
   "homepage": "https://github.com/SLaks/configdir-loader",
   "author": "Schabse Laks <Dev@SLaks.net> (http://slaks.net)",
