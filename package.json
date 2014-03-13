@@ -1,0 +1,27 @@
+{
+  "name": "configdir-loader",
+  "version": "0.0.1",
+  "description": "Loads environment-specific configuration files into a config object.",
+  "homepage": "https://github.com/SLaks/configdir-loader",
+  "author": "Schabse Laks <Dev@SLaks.net> (http://slaks.net)",
+  "keywords": [
+    "config",
+    "loader",
+    "json"
+  ],
+  "main": "configdir-loader.js",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SLaks/configdir-loader"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  }
+}
